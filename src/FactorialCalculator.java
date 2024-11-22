@@ -39,13 +39,4 @@ public class FactorialCalculator {
         return number;
     }
 
-    public static void main(String[] args) {
-
-        FactorialCalculator calculator = new FactorialCalculator();
-
-
-        int number = 5;
-            long result = calculator.calculateFactorial(number);
-            System.out.println("Factorial of " + number + " is: " + result);
-    }
 }
